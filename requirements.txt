@@ -1,5 +1,1 @@
-aws-cdk.aws-sqs
-aws-cdk.aws-lambda
-aws-cdk.cdk
-aws-cdk.aws-apigateway
-boto3
+-e .

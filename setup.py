@@ -6,20 +6,24 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="queue_viewer",
+    name="queue_viewer_construct",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="CDK Python example of use of a Construct",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    author="author",
+    author="Sam Keen",
 
     package_dir={"": "queue_viewer"},
     packages=setuptools.find_packages(where="queue_viewer"),
 
     install_requires=[
         "aws-cdk.cdk",
+        "aws-cdk.aws_sqs",
+        "aws-cdk.aws_apigateway",
+        "aws-cdk.aws_iam",
+        "aws-cdk.aws_lambda",
     ],
 
     python_requires=">=3.6",
