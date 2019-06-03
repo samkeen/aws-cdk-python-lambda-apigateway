@@ -24,7 +24,8 @@ source ./.env/bin/activate
 pip install -r requirements.txt
 
 ```
-Optionally you can view the resulting CloudFormation template with `cdk synth`.
+Optionally you can view the resulting CloudFormation template with `cdk synth` and/or see what is going to be deployed by issuing `cdk diff`
+
 When you are ready to deploy;
 ```bash
 cdk deploy
