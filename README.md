@@ -1,8 +1,9 @@
-# Lambda with ApiGateway
+# Lambda with ApiGateway via AWS CDK
 
 This is a very simple example of using AWS CDK to define in Python 
 ([Python >= 3.7.1](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)) a Lambda function with APIGateway.
-The function simply queries and SQS queue for its attributes when called.
+The function simply queries and SQS queue for the queue's attributes when called.
+
 ## Installing the CDK CLI
 
 ```bash
@@ -24,7 +25,7 @@ source ./.env/bin/activate
 pip install -r requirements.txt
 
 ```
-Optionally you can view the resulting CloudFormation template with `cdk synth` and/or see what is going to be deployed by issuing `cdk diff`
+Optionally you can view the resulting CloudFormation template with `cdk synth`.
 
 When you are ready to deploy;
 ```bash
