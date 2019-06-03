@@ -15,6 +15,8 @@ See [docs](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) fo
 
 ## Deploying this App Stack
 
+Git clone then `cd` into the top directory of this project
+
 Create your python virtual env
 ```bash
 python -m venv .env
